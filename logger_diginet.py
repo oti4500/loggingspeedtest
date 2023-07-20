@@ -9,6 +9,6 @@ while True:
         # Write the current timestamp and speedtest output to the log file
         log_file.write(time.strftime("%Y-%m-%d %H:%M:%S") + "\n")
         log_file.write(speedtest_output + "\n")
-    # Sleep for 15 minutes before running the speedtest again
-    time.sleep(3 * 60)
+    # Sleep for 60 seconds before running the speedtest again
+    time.sleep(60)
 
