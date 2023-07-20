@@ -2,7 +2,7 @@ import os
 import time
 from datetime import datetime
 
-hostname = "google.com" # specify the hostname or IP address you want to ping
+hostname = "1.1.1.1" # specify the hostname or IP address you want to ping
 ping_command = "ping -c 1 " + hostname
 log_file = "ping_log.txt" # specify the name of the log file
 
